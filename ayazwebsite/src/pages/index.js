@@ -3,10 +3,11 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import Avatar from 'https://ayazzafar.tech/images/profilepic.jpg';
+import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import HomepageFeatures from '../components/HomepageFeatures';
+import { Socials } from '../components/Socials';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -24,7 +25,6 @@ function HomepageHeader() {
           </Box>
         </Box>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <Socials />
       </div>
     </header>
   );
