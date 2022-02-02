@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Box m="auto">
             <Avatar
               alt="Djamaile Rahamat"
-              src={useBaseUrl('/img/pp.png')}
+              src={useBaseUrl('https://ayazzafar.tech/images/profilepic.jpg')}
               sx={{ width: 150, height: 150, m: 2 }}
             />
           </Box>
