@@ -46,7 +46,7 @@ const config = {
         title: 'AYAZ ZAFAR',
         logo: {
           alt: '',
-          src: 'logo.svg',
+          src: 'img/logo.svg',
         },
         items: [
           {
