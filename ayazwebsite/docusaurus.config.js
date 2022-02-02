@@ -45,8 +45,8 @@ const config = {
       navbar: {
         title: 'AYAZ ZAFAR',
         logo: {
-          alt: 'My Site Logo',
-          src: 'logo.png',
+          alt: '',
+          src: 'logo.svg',
         },
         items: [
           {
