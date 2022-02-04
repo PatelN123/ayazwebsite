@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'logo.png',
+  favicon: 'img/logo.png',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
@@ -46,7 +46,7 @@ const config = {
         title: 'AYAZ ZAFAR',
         logo: {
           alt: '',
-          src: 'logo.png',
+          src: 'img/logo.png',
         },
         items: [
           {
