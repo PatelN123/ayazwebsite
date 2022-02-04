@@ -17,7 +17,7 @@ function HomepageHeader() {
         <Box sx={{ display: 'flex' }}>
           <Box m="auto">
             <Avatar
-              alt="Djamaile Rahamat"
+              alt="Ayaz Zafar"
               src={useBaseUrl('https://ayazzafar.tech/images/profilepic.jpg')}
               sx={{ width: 150, height: 150, m: 2 }}
             />
@@ -31,7 +31,7 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout title="Home" description="Blog of Djamaile Rahamat">
+    <Layout title="Home" description="Blog of Ayaz Zafar">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
