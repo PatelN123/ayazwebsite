@@ -45,8 +45,7 @@ const config = {
       label: 'Tutorial',
       items: ['hello'],
     },
-};
-
+  ]
 
 
   themeConfig:
