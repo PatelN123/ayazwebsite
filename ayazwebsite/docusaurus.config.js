@@ -39,6 +39,17 @@ const config = {
     ],
   ],
 
+  tutorialSidebar: [
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['hello'],
+    },
+  ],
+};
+
+
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
