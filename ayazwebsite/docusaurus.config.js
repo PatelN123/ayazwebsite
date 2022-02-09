@@ -52,7 +52,6 @@ const config = {
                     docId: 'intro',
                     position: 'left',
                     label: 'Tutorial',
-                    color: 'blue'
                 },
                 { to: '/blog', label: 'Blog', position: 'left' },
                 {
