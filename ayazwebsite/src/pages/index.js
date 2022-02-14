@@ -7,6 +7,7 @@ import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Aboutme from '../components/about';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -23,7 +24,7 @@ function HomepageHeader() {
             />
           </Box>
         </Box>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">Hello! I am Ayaz Zafar. Web Developer, IT Technician and Photographer.</p>
       </div>
     </header>
   );
@@ -33,6 +34,7 @@ export default function Home() {
   return (
     <Layout title="Home" description="Blog of Ayaz Zafar">
       <HomepageHeader />
+      <Aboutme />
       <main>
         <HomepageFeatures />
       </main>
